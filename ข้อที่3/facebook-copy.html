@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook-copy</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll;
+        font-family: Helvetica, sans-serif
+      }
+      .container {
+        display: flex;
+        margin: 0px auto;
+        margin-top: -80px;
+        align-items: center;
+        height: 650px;
+        width: auto;
+        justify-content: center;
+        background-color: rgb(236, 236, 236);
+
+      }
+      .text-1 {
+        width: 500px;
+        height: 300px;
+        margin-right: 20px;
+        align-items: center;
+        margin-left: 30px;
+        /* outline: 1px dashed gray; */
+        display: inline-block;
+      }
+
+      footer {
+        padding: 30px 10vw;
+        bottom: 0;
+        color: rgb(172, 172, 172);
+      }
+
+      .form-container {
+        width: auto;
+        height: 40vh;
+        margin-left: 20px;
+        /* outline: 1px dashed gray; */
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+      }
+
+      .form-container p{
+        font-size: 0.8rem; 
+        bottom: 0; 
+        position: absolute; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        margin-bottom: -30px;
+
+      }
+
+      input[type=text] {
+        width: 330px;
+        padding: 14px 16px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      input[type=submit] {
+       width: 332px;
+       background-color: #006eff;
+       color: rgb(255, 255, 255);
+       padding: 0px 16px;
+       margin: 8px 0;
+       border: none;
+       border-radius: 6px;
+       cursor: pointer;
+       line-height: 48px;
+       font-size: 20px;
+      }
+
+      .form{
+        background-color: #ffffff;
+        width: 396px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px silver;
+      }
+
+      hr {
+        width: 80%;
+      }
+
+      .create-button {
+        background-color: #42b72a;
+        color: aliceblue;
+        border: none;
+        border-radius: 6px;
+        font-size: 17px;
+        line-height: 48px;
+        padding: 0 16px;
+      }
+
+      @media screen and (max-width : 768px) {
+        .container{
+          flex-wrap: wrap;
+          margin-top: 0;
+          align-content: flex-start;
+        }
+        .text-1 {
+          margin-bottom: -40px ;
+          text-align: center;
+        }
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-1">
+        <h1 style="color: blue; font-size: 60px;">Facebook</h1>
+        <p style=" font-size: 30px;">Facebook helps you connect and share with the people in your life.</p>
+      </div>
+      <div class="form-container">
+        <form class="form" action="">
+          <input type="text" id="" name="Email-phone" placeholder="Email adress or phone number">
+          <input type="text" id="" name="Password" placeholder="Password">
+          <input type="submit" value="Login">
+          <a href="" style="text-decoration: none; color: #999999;">forgotten password?</a>
+          <hr>
+          <button class="create-button" href="#">Create new account</button>
+        </form>
+        <p><b>Create a Page</b> for a celebrity, brand or business.</p>
+      </div>
+    </div>
+    <footer>
+      <a href="" style="text-decoration: none; color: #a3a3a3;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+      harum voluptate debitis quis necessitatibus deleniti libero 
+      </a>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eos odit nisi at eum dicta vel voluptas natus, architecto quasi aspernatur totam laboriosam iste distinctio in consectetur voluptate quisquam harum!</p>
+    </footer>
+  </body>
+</html>
